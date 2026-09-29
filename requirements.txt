@@ -1,0 +1,6 @@
+openai==2.30.0
+httpx==0.28.1
+# 注：
+# 1. 本地 ASR 依赖系统 PATH 中已有的 whisper CLI 与 ffmpeg 可执行文件。
+# 2. 本工具不自动安装 whisper 或 ffmpeg，亦不自动下载模型。
+# 3. 如需使用 MP3 格式参考音频进行音色克隆，需在 PATH 中具备 ffprobe。

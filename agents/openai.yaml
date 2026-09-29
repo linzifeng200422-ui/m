@@ -1,0 +1,4 @@
+interface:
+  display_name: "m"
+policy:
+  allow_implicit_invocation: true

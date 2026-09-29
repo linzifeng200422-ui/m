@@ -1,0 +1,83 @@
+# 凭据与敏感文件
+.env
+.env.*
+*.env
+api-key
+api-key.*
+*api_key*
+*apikey*
+.config/
+.credentials/
+.secrets/
+credentials.json
+secrets.json
+secrets.yaml
+secrets.yml
+id_rsa*
+id_ed25519*
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+
+# 虚拟环境
+.venv/
+venv/
+ENV/
+env/
+
+# Python 运行时与缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# 操作系统与工具缓存
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.agy-staff/
+
+# 编辑器与 IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 临时与测试产物目录
+work/
+output/
+outputs/
+transcripts/
+dist/
+build/
+tmp/
+temp/
+.m-whisper-*/
+
+# 本地媒体、模型及转写产物（避免大文件与隐私素材泄露）
+*.wav
+*.mp3
+*.mp4
+*.m4a
+*.aac
+*.flac
+*.mov
+*.mkv
+*.srt
+*.vtt
+*.tsv
+transcript*.txt
+*.transcript.json
+*.pt
+*.pth
+*.bin
+*.onnx
